@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "problem": "Das Problem",
+    "howItWorks": "So funktioniert's",
+    "ehrs": "EHR-Kompatibilität",
+    "pricing": "Preise",
+    "team": "Team"
+  },
+  "hero": {
+    "badge": "Schweizer Medizin-Software",
+    "headline1": "Leere Slots werden zu",
+    "headline2": "aktiven Terminen.",
+    "subtext": "waiTime füllt stornierte Termine automatisch, indem es Patienten auf Ihrer Warteliste sofort benachrichtigt — ohne Personalaufwand, ohne entgangene Einnahmen.",
+    "cta": "Frühzugang anfragen",
+    "ctaSecondary": "So funktioniert's"
+  },
+  "problem": {
+    "title": "Die versteckten Kosten von Absagen",
+    "subtitle": "Leere Slots sind nicht nur lästig — sie bedeuten direkten Umsatzverlust und verzögerte Versorgung für Patienten.",
+    "stat1Value": "11–16%",
+    "stat1Label": "Schweizer No-Show-Rate",
+    "stat1Desc": "Studien in Schweizer Ambulatorien zeigen Ausfallraten zwischen 11.4% und 15.8% — jeder davon ist ein verlorener Slot.",
+    "stat2Value": "CHF 180–340",
+    "stat2Label": "Verlust pro verpasstem Termin",
+    "stat2Desc": "Jeder ungefüllte Termin bedeutet direkten Umsatz, der verloren geht, solange der Slot nicht aktiv wiederbesetzt wird.",
+    "stat3Value": "3+ Monate",
+    "stat3Label": "Wartezeiten für Patienten",
+    "stat3Desc": "Während Slots leer bleiben, warten Patienten auf der Warteliste monatelang auf Termine, die eigentlich frei wären."
+  },
+  "howItWorks": {
+    "title": "Vollautomatisches Slot-Filling",
+    "subtitle": "waiTime ist Ihr unsichtbarer Assistent — überwacht Ihren Terminplan und handelt sofort, wenn ein Platz frei wird.",
+    "step1Title": "Erkennung",
+    "step1Desc": "Wenn ein Patient im KIS absagt, wird waiTime sofort per sicherem Webhook benachrichtigt — kein manueller Eingriff nötig.",
+    "step2Title": "Matching",
+    "step2Desc": "Die Matching-Engine filtert die Warteliste nach den Präferenzen jedes Patienten — Zeitraum, Tageszeit, Wochentag — und priorisiert passende Patienten.",
+    "step3Title": "Benachrichtigung & Bestätigung",
+    "step3Desc": "Passende Patienten erhalten eine SMS oder E-Mail: \"Termin frei am 15. April um 10:30 — JA antworten zum Buchen.\" Der Erste, der bestätigt, erhält den Termin. Keine App erforderlich."
+  },
+  "ehrs": {
+    "title": "Für Schweizer Ambulatorien entwickelt",
+    "subtitle": "waiTime verbindet sich über eine sichere, ereignisgesteuerte Benachrichtigung mit Ihrem bestehenden KIS. Es werden keine Daten auf unseren Servern gespeichert — Ihre Patientendaten bleiben genau dort, wo sie sind.",
+    "compatible": "Kompatibel mit führenden Schweizer KIS-Systemen",
+    "note": "Patientendaten verlassen Ihre KIS-Umgebung nie. waiTime empfängt nur die minimalen Ereignisdaten, verarbeitet sie im Arbeitsspeicher und verwirft sie sofort danach."
+  },
+  "pricing": {
+    "title": "Einfache, transparente Preise",
+    "subtitle": "Die Pläne skalieren mit der Grösse Ihrer Praxis.",
+    "perMonth": "/ Monat",
+    "popular": "Beliebtester Plan",
+    "tier1Name": "Einzelpraxis",
+    "tier1Price": "99",
+    "tier1Features": ["1 Leistungserbringer", "Unbegrenzte Wartelistenpatienten", "E-Mail-Benachrichtigungen", "Standard-Support"],
+    "tier2Name": "Gruppenpraxis",
+    "tier2Price": "249",
+    "tier2Features": ["Bis zu 5 Leistungserbringer", "Unbegrenzte Wartelistenpatienten", "SMS & E-Mail-Benachrichtigungen", "KIS-Kompatibilität inklusive", "Priority-Support"],
+    "tier3Name": "Spital / Netzwerk",
+    "tier3Price": "Individuell",
+    "tier3Features": ["Unbegrenzte Leistungserbringer", "Mehrstandort-Unterstützung", "Erweiterte Analysen", "Dedizierter Erfolgsmanager"],
+    "contactSales": "Kontakt aufnehmen",
+    "comingSoon": "Demnächst"
+  },
+  "team": {
+    "title": "Das Team",
+    "subtitle": "Drei Studierende der Software-Ingenieurwissenschaften an der ZHAW Zürich — auf der Mission, die fehlende Infrastruktur für Schweizer Arztpraxen zu bauen.",
+    "member0Name": "Alexandra",
+    "member0Bio": "Software-Engineering-Studentin an der ZHAW. Fokus auf Backend-Architektur und KIS-Integration.",
+    "member1Name": "Chiara",
+    "member1Bio": "Software-Engineering-Studentin an der ZHAW. Verantwortlich für Produktdesign und Frontend-Entwicklung.",
+    "member2Name": "Julia",
+    "member2Bio": "Software-Engineering-Studentin an der ZHAW. Treibt Recherche, Geschäftsmodell und Go-to-Market-Strategie voran."
+  },
+  "cta": {
+    "title": "Hören Sie auf, Einnahmen durch Absagen zu verlieren.",
+    "subtitle": "waiTime befindet sich in der Entwicklung. Melden Sie sich, um am Pilotprogramm teilzunehmen und zu den ersten Schweizer Praxen zu gehören, die ihre Warteliste automatisieren.",
+    "primary": "Frühzugang anfragen",
+    "secondary": "Mehr erfahren"
+  },
+  "footer": {
+    "tagline": "Intelligente Wartelisten-Automatisierung für Schweizer Arztpraxen. Leere Slots reduzieren, Einnahmen zurückgewinnen und Patienten schnelleren Zugang zur Versorgung ermöglichen.",
+    "product": "Produkt",
+    "company": "Unternehmen",
+    "features": "Funktionen",
+    "pricing": "Preise",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "copyright": "© 2026 waiTime. Alle Rechte vorbehalten.",
+    "gdpr": "nFADP-konform",
+    "hosted": "Schweizer Hosting"
+  }
+}

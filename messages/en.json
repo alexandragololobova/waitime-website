@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "problem": "The Problem",
+    "howItWorks": "How It Works",
+    "ehrs": "EHR Compatibility",
+    "pricing": "Pricing",
+    "team": "Team"
+  },
+  "hero": {
+    "badge": "Swiss Medical Software",
+    "headline1": "Turn empty slots into",
+    "headline2": "active appointments.",
+    "subtext": "waiTime automatically fills cancelled appointments by instantly notifying patients on your waitlist — zero staff involvement, zero missed revenue.",
+    "cta": "Request Early Access",
+    "ctaSecondary": "See How It Works"
+  },
+  "problem": {
+    "title": "The hidden cost of cancellations",
+    "subtitle": "Empty slots aren't just an inconvenience — they represent direct revenue loss and delayed care for patients who need it.",
+    "stat1Value": "11–16%",
+    "stat1Label": "Swiss no-show rate",
+    "stat1Desc": "Studies at Swiss outpatient clinics report missed appointment rates between 11.4% and 15.8% — every one is a lost slot.",
+    "stat2Value": "CHF 180–340",
+    "stat2Label": "Lost per missed appointment",
+    "stat2Desc": "Each unfilled cancellation represents direct revenue that disappears unless the slot is actively recovered.",
+    "stat3Value": "3+ Months",
+    "stat3Label": "Patient wait times",
+    "stat3Desc": "While slots go empty, patients on waitlists wait months for appointments that could have been theirs."
+  },
+  "howItWorks": {
+    "title": "Fully automated slot filling",
+    "subtitle": "waiTime acts as your invisible assistant, monitoring your schedule and acting the moment an opening appears.",
+    "step1Title": "Detection",
+    "step1Desc": "When a patient cancels in your EHR system, waiTime is immediately notified via a secure webhook — no manual action needed.",
+    "step2Title": "Matching",
+    "step2Desc": "The matching engine filters your waitlist by each patient's stated preferences — date range, time of day, day of week — and ranks eligible patients.",
+    "step3Title": "Notification & Confirmation",
+    "step3Desc": "Matching patients receive an SMS or email: \"Slot available April 15 at 10:30am — reply YES to book.\" First to confirm gets the appointment. No app required."
+  },
+  "ehrs": {
+    "title": "Built for Swiss outpatient workflows",
+    "subtitle": "waiTime connects to your existing EHR system via a secure, event-driven notification. No data is ever stored on our servers — your patient records stay exactly where they are.",
+    "compatible": "Compatible with leading Swiss EHR systems",
+    "note": "Patient data never leaves your EHR environment. waiTime receives only the minimum event data needed to trigger a match, processes it in memory, and discards it immediately."
+  },
+  "pricing": {
+    "title": "Simple, transparent pricing",
+    "subtitle": "Plans scale with the size of your practice.",
+    "perMonth": "/ month",
+    "popular": "Most Popular",
+    "tier1Name": "Solo Practice",
+    "tier1Price": "99",
+    "tier1Features": ["1 provider", "Unlimited waitlist patients", "Email notifications", "Standard support"],
+    "tier2Name": "Clinic",
+    "tier2Price": "249",
+    "tier2Features": ["Up to 5 providers", "Unlimited waitlist patients", "SMS & Email notifications", "EHR compatibility included", "Priority support"],
+    "tier3Name": "Hospital / Network",
+    "tier3Price": "Custom",
+    "tier3Features": ["Unlimited providers", "Multi-location support", "Advanced analytics", "Dedicated success manager"],
+    "contactSales": "Contact Us",
+    "comingSoon": "Coming Soon"
+  },
+  "team": {
+    "title": "Meet the team",
+    "subtitle": "Three software engineering students from ZHAW Zürich, building the infrastructure Swiss clinics are missing.",
+    "member0Name": "Alexandra",
+    "member0Bio": "Software engineering student at ZHAW. Focused on backend architecture and EHR integration.",
+    "member1Name": "Chiara",
+    "member1Bio": "Software engineering student at ZHAW. Leading product design and frontend development.",
+    "member2Name": "Julia",
+    "member2Bio": "Software engineering student at ZHAW. Driving research, business model, and go-to-market strategy."
+  },
+  "cta": {
+    "title": "Stop losing revenue to cancellations.",
+    "subtitle": "waiTime is in early development. Get in touch to join our pilot program and be among the first Swiss clinics to automate their waitlist.",
+    "primary": "Request Early Access",
+    "secondary": "Learn More"
+  },
+  "footer": {
+    "tagline": "Intelligent waitlist automation for Swiss medical practices. Reduce empty slots, recover revenue, and give patients faster access to care.",
+    "product": "Product",
+    "company": "Company",
+    "features": "Features",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "copyright": "© 2026 waiTime. All rights reserved.",
+    "gdpr": "nFADP Compliant",
+    "hosted": "Swiss Hosted"
+  }
+}
