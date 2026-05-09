@@ -199,18 +199,6 @@ export default function HomePage() {
                         <Shield className="h-4 w-4"/>
                         {tEhrs('compatible')}
                     </div>
-                    <div className="flex flex-wrap justify-center gap-10 items-center mb-12">
-                        {[
-                            {name: 'Tomedo', color: 'text-blue-700'},
-                            {name: 'Vitodata', color: 'text-teal-700'},
-                            {name: 'Medidata', color: 'text-indigo-700'},
-                        ].map(({name, color}) => (
-                            <div key={name}
-                                 className="flex items-center gap-2 opacity-70 hover:opacity-100 transition-opacity">
-                                <span className={`text-2xl font-bold tracking-tighter ${color}`}>{name}</span>
-                            </div>
-                        ))}
-                    </div>
                     <div
                         className="max-w-2xl mx-auto bg-white rounded-xl border border-slate-200 p-6 text-sm text-slate-600 leading-relaxed">
                         <div className="flex items-start gap-3">
@@ -250,7 +238,7 @@ export default function HomePage() {
                             </ul>
                             <div className="mt-auto pt-4">
                                 <div
-                                    className="w-full text-center py-2.5 rounded-lg border border-slate-200 text-slate-400 text-sm font-medium">
+                                    className="w-full text-center py-2.5 rounded-lg border border-slate-200 text-slate-400 text-sm font-medium hover:bg-slate-50 transition-colors block">
                                     {tPricing('comingSoon')}
                                 </div>
                             </div>
@@ -279,7 +267,7 @@ export default function HomePage() {
                             </ul>
                             <div className="mt-auto pt-4">
                                 <div
-                                    className="w-full text-center py-2.5 rounded-lg bg-blue-600 text-white text-sm font-semibold">
+                                    className="w-full text-center py-2.5 rounded-lg bg-blue-600 text-white text-sm font-semibold hover:bg-blue-700 transition-colors block">
                                     {tPricing('comingSoon')}
                                 </div>
                             </div>
@@ -290,7 +278,8 @@ export default function HomePage() {
                             className="relative flex flex-col border border-slate-200 rounded-xl p-6 shadow-sm bg-white">
                             <div className="text-xl font-bold text-slate-900 mb-1">{tPricing('tier3Name')}</div>
                             <div className="flex items-baseline gap-1 mb-6">
-                                <span className="text-4xl font-bold text-slate-900">{tPricing('tier3Price')}</span>
+                                <span className="text-4xl font-bold text-slate-900">CHF {tPricing('tier3Price')}</span>
+                                <span className="text-slate-500">{tPricing('perMonth')}</span>
                             </div>
                             <ul className="space-y-3 flex-1 mb-6">
                                 {tier3Features.map((f) => (
@@ -303,9 +292,9 @@ export default function HomePage() {
                             <div className="mt-auto pt-4">
                                 <a
                                     href="mailto:hello@waitime.ch"
-                                    className="w-full text-center py-2.5 rounded-lg border border-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-50 transition-colors block"
+                                    className="w-full text-center py-2.5 rounded-lg border border-slate-200 text-slate-400 text-sm font-medium hover:bg-slate-50 transition-colors block"
                                 >
-                                    {tPricing('contactSales')}
+                                    {tPricing('comingSoon')}
                                 </a>
                             </div>
                         </div>

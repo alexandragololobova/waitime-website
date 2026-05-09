@@ -8,9 +8,9 @@
   },
   "hero": {
     "badge": "Swiss Medical Software",
-    "headline1": "Turn empty slots into",
-    "headline2": "active appointments.",
-    "subtext": "waiTime automatically fills cancelled appointments by instantly notifying patients on your waitlist — zero staff involvement, zero missed revenue.",
+    "headline1": "Empty slots filled",
+    "headline2": "Automatically.",
+    "subtext": "waiTime fills cancelled appointments by instantly notifying patients on the waitlist — the first to confirm gets the appointment.",
     "cta": "Request Early Access",
     "ctaSecondary": "See How It Works"
   },
@@ -29,50 +29,65 @@
   },
   "howItWorks": {
     "title": "Fully automated slot filling",
-    "subtitle": "waiTime acts as your invisible assistant, monitoring your schedule and acting the moment an opening appears.",
+    "subtitle": "waiTime acts as an invisible assistant, monitoring schedules and acting the moment an opening appears",
     "step1Title": "Detection",
-    "step1Desc": "When a patient cancels in your EHR system, waiTime is immediately notified via a secure webhook — no manual action needed.",
+    "step1Desc": "When a cancellation is recorded in the clinic's system, waiTime picks it up instantly and starts the match process.",
     "step2Title": "Matching",
-    "step2Desc": "The matching engine filters your waitlist by each patient's stated preferences — date range, time of day, day of week — and ranks eligible patients.",
-    "step3Title": "Notification & Confirmation",
-    "step3Desc": "Matching patients receive an SMS or email: \"Slot available April 15 at 10:30am — reply YES to book.\" First to confirm gets the appointment. No app required."
+    "step2Desc": "Not every waitlisted patient fits every slot. waiTime filters by each patient's preferences and surfaces only those who actually match.",
+    "step3Title": "Notification and Confirmation",
+    "step3Desc": "An SMS or email goes out to matching patients. First to respond secures the slot. Everyone else is notified it's been filled. The clinic dashboard updates automatically."
   },
   "ehrs": {
     "title": "Built for Swiss outpatient workflows",
-    "subtitle": "waiTime connects to your existing EHR system via a secure, event-driven notification. No data is ever stored on our servers — your patient records stay exactly where they are.",
+    "subtitle": "waiTime connects to the practice management system already in use at the clinic and runs quietly in the background. No data is ever stored on our servers — your patient records stay exactly where they are.",
     "compatible": "Compatible with leading Swiss EHR systems",
-    "note": "Patient data never leaves your EHR environment. waiTime receives only the minimum event data needed to trigger a match, processes it in memory, and discards it immediately."
+    "note": "Patient data never leaves the clinic's system. waiTime receives only what it needs to find a match, processes it, and discards it. Nothing is stored on our end."
   },
   "pricing": {
     "title": "Simple, transparent pricing",
     "subtitle": "Plans scale with the size of your practice.",
     "perMonth": "/ month",
     "popular": "Most Popular",
-    "tier1Name": "Solo Practice",
-    "tier1Price": "99",
-    "tier1Features": ["1 provider", "Unlimited waitlist patients", "Email notifications", "Standard support"],
-    "tier2Name": "Clinic",
-    "tier2Price": "249",
-    "tier2Features": ["Up to 5 providers", "Unlimited waitlist patients", "SMS & Email notifications", "EHR compatibility included", "Priority support"],
-    "tier3Name": "Hospital / Network",
-    "tier3Price": "Custom",
-    "tier3Features": ["Unlimited providers", "Multi-location support", "Advanced analytics", "Dedicated success manager"],
-    "contactSales": "Contact Us",
+    "tier1Name": "Basic",
+    "tier1Price": "129",
+    "tier1Features": [
+      "1 location",
+      "300 SMS included per month",
+      "Standard analytics",
+      "Email support"
+    ],
+    "tier2Name": "Standard",
+    "tier2Price": "279",
+    "tier2Features": [
+      "Up to 5 locations",
+      "700 SMS included per month",
+      "Multi-location dashboard",
+      "Standard analytics",
+      "Priority email support"
+    ],
+    "tier3Name": "Premium",
+    "tier3Price": "599",
+    "tier3Features": [
+      "Unlimited locations",
+      "2,000 SMS included per month",
+      "Advanced analytics",
+      "Dedicated onboarding support"
+    ],
     "comingSoon": "Coming Soon"
   },
   "team": {
     "title": "Meet the team",
-    "subtitle": "Three software engineering students from ZHAW Zürich, building the infrastructure Swiss clinics are missing.",
-    "member0Name": "Alexandra",
-    "member0Bio": "Software engineering student at ZHAW. Focused on backend architecture and EHR integration.",
-    "member1Name": "Chiara",
-    "member1Bio": "Software engineering student at ZHAW. Leading product design and frontend development.",
-    "member2Name": "Julia",
-    "member2Bio": "Software engineering student at ZHAW. Driving research, business model, and go-to-market strategy."
+    "subtitle": "A team of developers from ZHAW Zürich, building the infrastructure Swiss clinics are missing.",
+    "member0Name": "Alexandra Gololobova",
+    "member0Bio": "",
+    "member1Name": "Chiara Bär",
+    "member1Bio": "",
+    "member2Name": "Julia Nguyên",
+    "member2Bio": ""
   },
   "cta": {
-    "title": "Stop losing revenue to cancellations.",
-    "subtitle": "waiTime is in early development. Get in touch to join our pilot program and be among the first Swiss clinics to automate their waitlist.",
+    "title": "Stop losing revenue to cancellations",
+    "subtitle": "Get in touch to join our pilot program and be among the first Swiss clinics to automate their waitlist with waiTime.",
     "primary": "Request Early Access",
     "secondary": "Learn More"
   },

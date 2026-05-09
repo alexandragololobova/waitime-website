@@ -101,8 +101,8 @@ export default function DashboardMockup() {
                         {/* Schedule list */}
                         <div className="flex-1 overflow-y-auto p-1.5 space-y-2">
                             {[
-                                {time: '08:00', name: 'Sarah M.', type: 'General Consultation'},
-                                {time: '08:30', name: 'James T.', type: 'Follow-up'},
+                                {time: '08:00', name: 'Monika B.', type: 'General Consultation'},
+                                {time: '08:30', name: 'Peter S.', type: 'Follow-up'},
                             ].map((slot) => (
                                 <div key={slot.time}
                                      className="border border-slate-100 bg-white rounded-lg p-2.5 shadow-sm flex items-center gap-3">
@@ -141,7 +141,7 @@ export default function DashboardMockup() {
                                     className="w-10 text-center text-sm font-semibold text-slate-700 flex-shrink-0">09:30
                                 </div>
                                 <div className="flex-1 min-w-0">
-                                    <div className="font-medium text-slate-900 text-sm truncate">Linda K.</div>
+                                    <div className="font-medium text-slate-900 text-sm truncate">Laura K.</div>
                                     <div className="text-xs text-slate-500 truncate">Annual Checkup</div>
                                 </div>
                                 <span
@@ -170,25 +170,25 @@ export default function DashboardMockup() {
                             <div className="space-y-1.5">
                                 {[
                                     {
-                                        name: 'David Chen',
+                                        name: 'David C.',
                                         status: 'Accepted',
                                         statusColor: 'text-green-600',
                                         bg: 'bg-white border-slate-100'
                                     },
                                     {
-                                        name: 'Priya Patel',
+                                        name: 'Sabine M.',
                                         status: 'Offer Sent',
                                         statusColor: 'text-blue-600',
                                         bg: 'bg-white border-slate-100'
                                     },
                                     {
-                                        name: "Mark O'Brien",
+                                        name: "Mark O.",
                                         status: 'Pending',
                                         statusColor: 'text-slate-400',
                                         bg: 'bg-slate-100/50 border-slate-50'
                                     },
                                     {
-                                        name: 'Aiko Tanaka',
+                                        name: 'Thomas H.',
                                         status: 'Pending',
                                         statusColor: 'text-slate-400',
                                         bg: 'bg-slate-100/50 border-slate-50'
@@ -211,11 +211,11 @@ export default function DashboardMockup() {
                                 <div className="space-y-1.5">
                                     <div className="flex items-start gap-1.5 text-xs text-slate-500">
                                         <Smartphone className="h-3 w-3 text-slate-400 mt-0.5 flex-shrink-0"/>
-                                        SMS sent to 4 patients
+                                        SMS sent to 3 patients
                                     </div>
                                     <div className="flex items-start gap-1.5 text-xs text-slate-500">
                                         <Mail className="h-3 w-3 text-slate-400 mt-0.5 flex-shrink-0"/>
-                                        Email sent to 2 patients
+                                        Email sent to 1 patient
                                     </div>
                                 </div>
                             </div>
