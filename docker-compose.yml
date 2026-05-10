@@ -1,0 +1,34 @@
+services:
+  web:
+    image: waitime-website:latest
+    container_name: waitime-web
+    restart: unless-stopped
+#    ports:
+#      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+# Server specifics
+    networks:
+      - backend
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.web-waitime.entrypoints=websecure"
+      - "traefik.http.routers.web-waitime.rule=Host(`waitime.ch`) || Host(`www.waitime.ch`)"
+      - "traefik.http.routers.web-waitime.tls=true"
+      - "traefik.http.routers.web-waitime.tls.certresolver=le-dns"
+      - "traefik.http.routers.web-waitime.tls.domains[0].main=waitime.ch"
+      - "traefik.http.routers.web-waitime.tls.domains[0].sans=*.waitime.ch"
+      - "traefik.http.routers.web-waitime.service=web-waitime"
+      - "traefik.http.routers.web-waitime.middlewares=default-middleware@file"
+      - "traefik.http.services.web-waitime.loadbalancer.server.port=3000"
+networks:
+  backend:
+    external: true
