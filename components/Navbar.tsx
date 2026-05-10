@@ -29,7 +29,24 @@ export default function Navbar() {
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-2">
                         <div className="h-8 w-8 rounded-lg bg-blue-600 flex items-center justify-center flex-shrink-0">
-                            <Plus className="h-5 w-5 text-white"/>
+                            <svg viewBox="0 0 32 32" className="h-5 w-5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                {/* Hour dots arranged in circle */}
+                                <circle cx="16" cy="4.5" r="2.2" fill="white"/>
+                                <circle cx="22.5" cy="6.5" r="1.8" fill="white"/>
+                                <circle cx="27" cy="11.5" r="2.5" fill="white"/>
+                                <circle cx="28.5" cy="18" r="1.5" fill="white"/>
+                                <circle cx="26" cy="24" r="2" fill="white"/>
+                                <circle cx="21" cy="27.5" r="1.4" fill="white"/>
+                                <circle cx="16" cy="28.5" r="1.2" fill="white"/>
+                                <circle cx="11" cy="27.5" r="1.4" fill="white"/>
+                                <circle cx="6" cy="24" r="1.6" fill="white"/>
+                                <circle cx="3.5" cy="18" r="1.2" fill="white"/>
+                                <circle cx="5" cy="11.5" r="1.8" fill="white"/>
+                                <circle cx="9.5" cy="6.5" r="1.4" fill="white"/>
+                                {/* Clock hands */}
+                                <rect x="14.8" y="9" width="2.4" height="7.5" rx="1.2" fill="white"/>
+                                <rect x="14.8" y="15" width="2.4" height="5.5" rx="1.2" fill="white" transform="rotate(45 16 16)"/>
+                            </svg>
                         </div>
                         <span className="text-xl font-semibold tracking-tight text-slate-900">
                             wai<span className="text-blue-600">T</span>ime
