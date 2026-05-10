@@ -16,9 +16,9 @@ export default function HomePage() {
     const tFooter = useTranslations('footer');
 
     const teamMembers = [
-        {name: tTeam('member1Name'), bio: tTeam('member1Bio'), photo: '/team/chiara.jpg'},
-        {name: tTeam('member0Name'), bio: tTeam('member0Bio'), photo: '/team/alexandra.jpg'},
-        {name: tTeam('member2Name'), bio: tTeam('member2Bio'), photo: '/team/julia-ng.jpg'},
+        {name: tTeam('member0Name'), bio: tTeam('member0Bio'), photo: '/images/Alexandra.jpeg'},
+        {name: tTeam('member1Name'), bio: tTeam('member1Bio'), photo: '/images/Chiara.png'},
+        {name: tTeam('member2Name'), bio: tTeam('member2Bio'), photo: '/images/Julia.jpeg'},
     ];
 
     const tier1Features = [
@@ -46,7 +46,7 @@ export default function HomePage() {
     return (
         <>
             {/* ── HERO ── */}
-            <section className="relative bg-white pt-16 pb-20 lg:pt-24 lg:pb-32">
+            <section className="relative bg-white pt-16 pb-20 lg:pt-24 lg:pb-32 overflow-x-hidden">
                 <div
                     className="pointer-events-none absolute inset-0 opacity-20"
                     style={{
@@ -56,9 +56,9 @@ export default function HomePage() {
                         maskImage: 'radial-gradient(ellipse 60% 50% at 50% 0%, #000 70%, transparent 100%)',
                     }}
                 />
-                <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
-                        <div>
+                <div className="relative max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-6 xl:px-12 2xl:px-14">
+                    <div className="grid gap-12 lg:gap-12 lg:grid-cols-12 lg:items-center">
+                        <div className="lg:col-span-5 min-w-0">
                             <span
                                 className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold border border-blue-200 bg-blue-50 text-blue-700 mb-6">
                                 {tHero('badge')}
@@ -86,7 +86,8 @@ export default function HomePage() {
                                 </a>
                             </div>
                         </div>
-                        <div className="lg:pl-8 lg:-mr-15">
+                        <div
+                            className="lg:col-span-7 min-w-0 lg:pl-2 xl:pl-4 lg:scale-[1.02] xl:scale-[1.04] 2xl:scale-105 origin-left will-change-transform">
                             <DashboardMockup/>
                         </div>
                     </div>
@@ -315,19 +316,14 @@ export default function HomePage() {
                         {teamMembers.map(({name, bio, photo}) => (
                             <div key={name} className="flex flex-col items-center text-center">
                                 <div
-                                    className="relative h-32 w-32 rounded-full overflow-hidden border-4 border-white shadow-lg mb-4 bg-blue-100">
+                                    className="relative h-32 w-32 shrink-0 rounded-full overflow-hidden border-4 border-white shadow-lg mb-4 bg-slate-200">
                                     <Image
                                         src={photo}
                                         alt={name}
                                         fill
-                                        className="object-cover"
-                                        onError={(e) => {
-                                            (e.target as HTMLImageElement).style.display = 'none';
-                                        }}
+                                        sizes="128px"
+                                        className="object-cover object-center"
                                     />
-                                    <div
-                                        className="absolute inset-0 flex items-center justify-center text-blue-600 text-2xl font-bold">
-                                    </div>
                                 </div>
                                 <h3 className="text-lg font-semibold text-slate-900 mb-1">{name}</h3>
                                 <p className="text-sm text-slate-600 leading-relaxed">{bio}</p>
