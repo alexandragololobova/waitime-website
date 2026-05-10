@@ -7,6 +7,9 @@ RUN npm ci
 FROM node:current-alpine AS builder
 WORKDIR /app
 
+ARG DOCKER_BUILD=false
+ENV DOCKER_BUILD=$DOCKER_BUILD
+
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 

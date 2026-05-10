@@ -35,7 +35,7 @@ help:
 
 # Build Docker image (no cache)
 build:
-	docker build --no-cache -t $(IMAGE):$(VERSION) .
+	docker build --build-arg DOCKER_BUILD=true --no-cache -t $(IMAGE):$(VERSION) .
 
 # Start services
 up:
